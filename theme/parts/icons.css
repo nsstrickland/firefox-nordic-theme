@@ -183,32 +183,41 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 }
 
 /* Window buttons */
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-close .toolbarbutton-icon,
-:root[tabsintitlebar] #titlebar #titlebar-close .toolbarbutton-icon {
+:root[tabsintitlebar] .titlebar-close {
 	list-style-image: url("../icons/window-close-symbolic.svg") !important;
 }
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .tutlebar-close .toolbarbutton-icon:not([disabled]):hover,
-:root[tabsintitlebar] #titlebar #titlebar-close .toolbarbutton-icon:not([disabled]):hover, {
+:root[tabsintitlebar] .titlebar-close:hover {
 	list-style-image: url("../icons/window-close-hover.svg") !important;
 }
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .tutlebar-close .toolbarbutton-icon:not([disabled]):active,
-:root[tabsintitlebar] #titlebar #titlebar-close .toolbarbutton-icon:not([disabled]):active, {
-	list-style-image: url("../icons/window-close-hover.svg") !important;
+:root[tabsintitlebar] .titlebar-close:active {
+	list-style-image: url("../icons/window-close-active.svg") !important;
 }
-
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-max .toolbarbutton-icon,
-:root[tabsintitlebar] #titlebar #titlebar-max .toolbarbutton-icon {
-	list-style-image: url("../icons/window-maximize-symbolic.svg") !important;
-}
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon {
-	list-style-image: url("../icons/window-restore-symbolic.svg") !important;
-}
-:root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-min .toolbarbutton-icon,
-:root[tabsintitlebar] #titlebar #titlebar-min .toolbarbutton-icon {
+:root[tabsintitlebar] .titlebar-min {
 	list-style-image: url("../icons/window-minimize-symbolic.svg") !important;
 }
-:root[tabsintitlebar][inFullscreen] #window-controls #restore-button .toolbarbutton-icon {
-	list-style-image: url("../icons/view-restore-symbolic.svg") !important;
+:root[tabsintitlebar] .titlebar-min:hover {
+	list-style-image: url("../icons/window-minimize-hover.svg") !important;
+}
+:root[tabsintitlebar] .titlebar-min:active {
+	list-style-image: url("../icons/window-minimize-active.svg") !important;
+}
+:root[tabsintitlebar] .titlebar-max {
+	list-style-image: url("../icons/window-maximize-symbolic.svg") !important;
+}
+:root[tabsintitlebar] .titlebar-max:hover {
+	list-style-image: url("../icons/window-maximize-hover.svg") !important;
+}
+:root[tabsintitlebar] .titlebar-max:active {
+	list-style-image: url("../icons/window-maximize-active.svg") !important;
+}
+:root[tabsintitlebar] .titlebar-restore {
+	list-style-image: url("../icons/window-maximize-symbolic.svg") !important;
+}
+:root[tabsintitlebar] .titlebar-restore:hover {
+	list-style-image: url("../icons/window-maximize-hover.svg") !important;
+}
+:root[tabsintitlebar] .titlebar-restore:active {
+	list-style-image: url("../icons/window-maximize-active.svg") !important;
 }
 
 /* Private browsing button */

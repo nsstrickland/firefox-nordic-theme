@@ -127,18 +127,18 @@
 :root[tabsintitlebar] #titlebar .titlebar-button {
 	border-radius: 100% !important;
 	height: 30px !important;
-	margin: 2px 5px !important;
+	margin: 2px 0px !important;
 	width: 30px;
 }
 
 :root[tabsintitlebar][inFullscreen] #window-controls toolbarbutton {
 	border-radius: 5px !important;
 	height: 34px;
-	margin: 0 3px !important;
+	margin: 0 0px !important;
 	width: 34px;
 }
 
 :root[tabsintitlebar] #titlebar .titlebar-button .toolbarbutton-icon,
 :root[tabsintitlebar][inFullscreen] #window-controls toolbarbutton .toolbarbutton-icon {
-	width: 2px;
+	width: 16px;
 }

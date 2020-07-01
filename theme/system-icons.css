@@ -40,12 +40,12 @@
 */
 
 /* Toolbars close button */
-.close-icon:not(.tab-close-button) {	
+/* .close-icon:not(.tab-close-button) {	
 	list-style-image: url("moz-icon://stock/window-close-symbolic") !important;
-}
+} */
 .close-icon:not(.tab-close-button) image {
 	filter: var(--gnome-window-icons-hack-filter) !important;
-}
+} 
 
 /* Navbar icons */
 

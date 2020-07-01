@@ -169,7 +169,7 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 /* Close button */
 .close-icon:not(.tab-close-button),
 .identity-popup-permission-remove-button .button-icon {
-	list-style-image: url("../icons/window-close-symbolic.svg") !important;
+	list-style-image: url("../icons/tab-close-symbolic.svg") !important;
 }
 @media (prefers-color-scheme: light) {
 	.notificationbox-stack notification[type="critical"] .close-icon:not(.tab-close-button):not(:hover) {
@@ -178,7 +178,7 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 }
 @media (prefers-color-scheme: dark) {
 	.notificationbox-stack notification[type="warning"] .close-icon:not(.tab-close-button):not(:hover) image {
-		fill: rgb(46, 52, 54) !important;
+		fill: #bf616a !important;
 	}
 }
 

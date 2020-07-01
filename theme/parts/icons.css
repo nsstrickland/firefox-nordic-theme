@@ -187,6 +187,15 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 :root[tabsintitlebar] #titlebar #titlebar-close .toolbarbutton-icon {
 	list-style-image: url("../icons/window-close-symbolic.svg") !important;
 }
+:root[tabsintitlebar] #titlebar .titlebar-buttonbox .tutlebar-close .toolbarbutton-icon:not([disabled]):hover,
+:root[tabsintitlebar] #titlebar #titlebar-close .toolbarbutton-icon:not([disabled]):hover, {
+	list-style-image: url("../icons/window-close-hover.svg") !important;
+}
+:root[tabsintitlebar] #titlebar .titlebar-buttonbox .tutlebar-close .toolbarbutton-icon:not([disabled]):active,
+:root[tabsintitlebar] #titlebar #titlebar-close .toolbarbutton-icon:not([disabled]):active, {
+	list-style-image: url("../icons/window-close-hover.svg") !important;
+}
+
 :root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-max .toolbarbutton-icon,
 :root[tabsintitlebar] #titlebar #titlebar-max .toolbarbutton-icon {
 	list-style-image: url("../icons/window-maximize-symbolic.svg") !important;

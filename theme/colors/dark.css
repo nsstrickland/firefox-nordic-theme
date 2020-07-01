@@ -7,10 +7,10 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		/* Browser area before a page starts loading */
-		--gnome-browser-before-load-background: #353535;
+		--gnome-browser-before-load-background: #303643;
 
 		/* Toolbars */
-		--gnome-toolbar-background: #232831;	
+		--gnome-toolbar-background: #2a2f3a;	
 		--gnome-toolbar-color: #b6bcc7;
 		--gnome-toolbar-border-color: #1f232b;
 		--gnome-inactive-toolbar-background: #3b4252;	

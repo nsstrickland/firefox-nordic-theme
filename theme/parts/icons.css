@@ -219,6 +219,9 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 :root[tabsintitlebar] .titlebar-restore:active {
 	list-style-image: url("../icons/window-maximize-active.svg") !important;
 }
+:root[tabsintitlebar] .titlebar-button:-moz-window-inactive {
+	list-style-image: url("../icons/window-button-inactive.svg") !important;
+}
 
 /* Private browsing button */
 #privatebrowsing-button {

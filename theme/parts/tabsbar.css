@@ -152,7 +152,7 @@ tab[selected]:-moz-window-inactive {
 	border: 1px solid transparent;
 	box-sizing: content-box; /* Avoid deformation on flexbox */
 	border-radius: 5px;
-	list-style-image: url("../icons/window-close-symbolic.svg") !important;
+	list-style-image: url("../icons/tab-close-symbolic.svg") !important;
 	fill: var(--gnome-toolbar-color) !important;
 	fill-opacity: 1 !important;
 	-moz-context-properties: fill, fill-opacity;

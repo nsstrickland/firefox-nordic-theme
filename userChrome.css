@@ -37,7 +37,7 @@
 /*@import "theme/symbolic-tab-icons.css"; /**/
 
 /* Gray out or replace extension icons with neutral system icons */
-@import "theme/extension-icons.css";
+/* @import "theme/extension-icons.css";
 
 /* Import a custom stylesheet
  * Everything you add in your customChrome.css file (it doesn't exist by

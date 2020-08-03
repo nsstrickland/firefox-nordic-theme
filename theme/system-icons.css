@@ -160,7 +160,7 @@
 /* Navbar overflow button */
 #nav-bar-overflow-button .toolbarbutton-icon {
 	filter: var(--gnome-icons-hack-filter);
-	list-style-image: url("moz-icon://stock/view-more-horizontal-symbolic") !important;
+	list-style-image: url("moz-icon://stock/start-here-symbolic") !important;
 }
 
 /* Context back button */	
@@ -172,6 +172,20 @@
 #context-forward .menu-iconic-icon { 
 	filter: var(--gnome-icons-hack-filter);
 	list-style-image: url("moz-icon://stock/go-next-symbolic") !important;
+}
+
+/* Library button */
+#library-button .toolbarbutton-icon {
+	filter: var(--gnome-icons-hack-filter);
+	list-style-image: url("moz-icon://stock/starred-symbolic") !important;
+}
+
+/* Sidebar button */
+#sidebar-button:-moz-locale-dir(ltr):not([positionend])  .toolbarbutton-icon, #sidebar-button:-moz-locale-dir(rtl)[positionend]  .toolbarbutton-icon {
+	list-style-image: url("../icons/view-left-pane-symbolic.svg") !important;
+}
+#sidebar-button .toolbarbutton-icon {
+	list-style-image: url("../icons/view-right-pane-symbolic.svg");
 }
 
 /* Main menu buttons icons */

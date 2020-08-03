@@ -1,0 +1,16 @@
+@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/* This optional CSS will either set an extension's icon to grayscale or replace it with a system symbolic icon */
+
+/* uBlock Origin */
+#ublock0_raymondhill_net-browser-action .toolbarbutton-icon {
+    filter: grayscale();
+}
+/* Privacy Badger  */
+jid1-mnnxcxisbpnsxq_jetpack-browser-action {
+    filter: grayscale();
+}
+
+/* NoScript */
+_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action {
+    filter: grayscale();
+}

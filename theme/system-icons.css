@@ -177,7 +177,7 @@
 /* Library button */
 #library-button .toolbarbutton-icon {
 	filter: var(--gnome-icons-hack-filter);
-	list-style-image: url("moz-icon://stock/starred-symbolic") !important;
+	list-style-image: url("moz-icon://stock/bookmarks") !important;
 }
 
 /* Sidebar button */

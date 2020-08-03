@@ -3,7 +3,8 @@
 
 /* uBlock Origin */
 #ublock0_raymondhill_net-browser-action .toolbarbutton-icon {
-    filter: grayscale();
+  	filter: var(--gnome-icons-hack-filter);
+	list-style-image: url("moz-icon://stock/arch-updates-symbolic") !important;
 }
 /* Privacy Badger  */
 #jid1-mnnxcxisbpnsxq_jetpack-browser-action .toolbarbutton-icon {

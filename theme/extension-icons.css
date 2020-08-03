@@ -6,11 +6,11 @@
     filter: grayscale();
 }
 /* Privacy Badger  */
-jid1-mnnxcxisbpnsxq_jetpack-browser-action {
+#jid1-mnnxcxisbpnsxq_jetpack-browser-action .toolbarbutton-icon {
     filter: grayscale();
 }
 
 /* NoScript */
-_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action {
+#_73a6fe31-595d-460b-a920-fcc0f8843232_-browser-action .toolbarbutton-icon {
     filter: grayscale();
 }
